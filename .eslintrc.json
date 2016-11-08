@@ -1,0 +1,17 @@
+{
+    "extends": ["airbnb", "eslint:recommended"],
+    "installedESLint": true,
+    "plugins": [
+        "react",
+        "jsx-a11y",
+        "import"
+    ],
+    "rules": {
+        "import/no-extraneous-dependencies": [2, {"devDependencies": true}],
+        "semi": ["error", "always"]
+    },
+    "env": {
+        "browser": true,
+        "node": true
+    }
+}
